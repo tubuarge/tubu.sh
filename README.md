@@ -8,11 +8,12 @@ In every project, developers need tool to use, it could be a mock server, a data
 **tubu.sh** will contain several on the go docker images to make ease of use development tools to be used inside of dev machines without knowledge of docker, vargant, sh, linux, bash or any other dependent tech stack.
 
 ## How?
-Here are some examples of how we ***want*** to use tubu.sh 
+Here are some examples of how we ***want*** to use tubu.sh \
+
 --- to run a postgres server, which runs locally on 5432 port and saves the datafolder where it runs under *postgres* folder
 
     tubu.sh run postgres
-
+ \
 --- to run an ngnix server with reverse proxy
 
     tubu.sh run ngnix -on port 80-(optional) forward /product to :8080
