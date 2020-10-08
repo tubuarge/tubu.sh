@@ -1,0 +1,21 @@
+{
+  "name": "tubu.sh",
+  "version": "1.0.0",
+  "description": "**tubu.sh** is a development ***toolset*** that helps you to run applications inside your machine **easily**.",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tubuarge/tubu.sh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/tubuarge/tubu.sh/issues"
+  },
+  "homepage": "https://github.com/tubuarge/tubu.sh#readme"
+}
